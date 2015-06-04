@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_menu_item1"
+        android:title="菜单一"
+        android:orderInCategory="100"
+        app:showAsAction="never"  />
+    <item
+        android:id="@+id/action_menu_item2"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="菜单二"
+        />
+
+</menu>
+
+
+<!-- orderInCategory   排序 序号 -->
